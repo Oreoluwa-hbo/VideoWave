@@ -4,14 +4,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,10 +22,9 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.4",
     "react-copy-to-clipboard": "^5.1.0",
+    "react-scripts": "^5.0.1",
     "simple-peer": "^9.11.1",
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5"
   }
 }
-
-

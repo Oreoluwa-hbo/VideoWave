@@ -7,10 +7,13 @@ import './styles.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
+
 root.render(
-<ContextProvider>
-    <App />
-</ContextProvider>
-);
+    React.createElement(
+      ContextProvider,
+      null,
+      React.createElement(App, null)
+    )
+  );
 
 

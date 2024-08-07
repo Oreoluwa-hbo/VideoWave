@@ -21,4 +21,9 @@
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5"
   }
+},
+
+"scripts": {
+  "redeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }

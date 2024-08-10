@@ -2,3 +2,16 @@ title: My Site
 baseurl: "/Videowave"
 url: "https://Oreoluwa-hbo.github.io"
 theme: jekyll-theme-minimal
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - package.json
+  - yarn.lock
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed

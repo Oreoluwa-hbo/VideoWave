@@ -4,6 +4,7 @@ url: "https://Oreoluwa-hbo.github.io"
 theme: jekyll-theme-minimal
 exclude:
   - node_modules
+  - client/node_modules
   - vendor
   - Gemfile
   - Gemfile.lock
